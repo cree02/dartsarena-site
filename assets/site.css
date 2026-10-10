@@ -167,3 +167,13 @@ h2 { font-size: clamp(30px, 4vw, 44px); line-height: 1.1; letter-spacing: -0.02e
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 20px; }
 .site-footer a { color: var(--muted); }
 .site-footer a:hover { color: var(--fg); }
+
+/* Promo video */
+.video-section { padding-top: 24px; }
+.video-frame {
+  max-width: 960px; margin: 0 auto;
+  border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--rule); background: #000;
+  box-shadow: 0 30px 80px rgba(0,0,0,.55);
+}
+.video-frame video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
