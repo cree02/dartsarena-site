@@ -19,9 +19,16 @@ and `../DartsArena/Design/app-icon-source.jpg` (made with `sips`).
 git-ignored because Firefox and many Windows browsers can't play HEVC. The
 poster is the frame at 0.6 s. The video autoplays muted only while on screen.
 
-## At launch
-In `index.html`, replace the "Coming soon" span (search for `LAUNCH:`) with a
-link to the App Store page, and change "coming soon" in the bottom section.
+## App Store link
+One listing for Mac and iOS (universal purchase): https://apps.apple.com/app/id6820357271
+Mac went live first. Badges are Apple's official SVGs from
+toolbox.marketingtools.apple.com (`assets/badge-mac-app-store.svg`, and
+`assets/badge-app-store.svg` ready for iOS).
+
+When iOS is approved, in `index.html` (search `iOS LAUNCH`): swap both badges
+to `badge-app-store.svg` / "Download on the App Store", remove "iPhone & iPad
+version coming soon" from the hero note, and reword the bottom "out now for
+Mac" line. The link stays the same.
 
 ## Policy changes
 The privacy text must match the App Store privacy answers
